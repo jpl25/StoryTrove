@@ -66,6 +66,7 @@ namespace StoryTrove
             this.guestBtn.TabIndex = 3;
             this.guestBtn.Text = "View As Guest";
             this.guestBtn.UseVisualStyleBackColor = true;
+            this.guestBtn.Click += new System.EventHandler(this.guestBtn_Click);
             // 
             // createBtn
             // 
@@ -75,6 +76,7 @@ namespace StoryTrove
             this.createBtn.TabIndex = 4;
             this.createBtn.Text = "Create Account";
             this.createBtn.UseVisualStyleBackColor = true;
+            this.createBtn.Click += new System.EventHandler(this.createBtn_Click);
             // 
             // MainForm
             // 
@@ -91,6 +93,16 @@ namespace StoryTrove
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guestBtn_Click(object sender, EventArgs e)
         {
 
         }
