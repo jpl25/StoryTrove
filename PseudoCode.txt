@@ -1,0 +1,44 @@
+create joe
+
+Joe has [joe.hair.color] hair
+
+		
+
+
+Joe has red air
+
+class StoryObject()
+{
+	string id;
+	Object obj;	
+
+
+	class Object()
+	{
+		string name;
+		
+		string value;
+		
+		List<Object> objs[]
+		
+		List<string values>
+		
+		
+	}
+}
+
+{
+	id;
+	{
+		name: "hair",
+		
+		objs:
+		[
+			{}
+			
+			
+		]
+	}
+		
+}
+
