@@ -1,28 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace StoryTrove
+﻿namespace Login
 {
-    public partial class MainForm : Form
+    partial class MainForm
     {
-        private TextBox emailTextBox;
-        private TextBox pswdTextBox;
-        private Button loginBtn;
-        private Button guestBtn;
-        private Button createBtn;
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-        public MainForm()
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
         {
-            InitializeComponent();
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
         }
 
+
+        #region Windows Form Designer generated code
         private void InitializeComponent()
         {
             this.emailTextBox = new System.Windows.Forms.TextBox();
@@ -80,7 +79,7 @@ namespace StoryTrove
             // 
             // MainForm
             // 
-            this.ClientSize = new System.Drawing.Size(843, 529);
+            this.ClientSize = new System.Drawing.Size(944, 681);
             this.Controls.Add(this.createBtn);
             this.Controls.Add(this.guestBtn);
             this.Controls.Add(this.loginBtn);
@@ -91,20 +90,19 @@ namespace StoryTrove
             this.PerformLayout();
 
         }
-
-        private void loginBtn_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        /*private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "Form1";
+        }*/
 
-        }
-
-        private void createBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guestBtn_Click(object sender, EventArgs e)
-        {
-
-        }
+        #endregion
     }
 }
+

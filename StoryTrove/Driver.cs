@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StoryTrove
 {
-    public partial class Browser : Form
+    public partial class Driver : Form
     {
-        public Browser()
+        public Driver()
         {
             InitializeComponent();
         }

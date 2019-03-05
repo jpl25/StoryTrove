@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryTrove", "StoryTrove\StoryTrove.csproj", "{106D6329-D19F-4BA1-83DC-81608CAECDE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryTrove", "StoryTrove\StoryTrove.csproj", "{4067951D-7CBA-4039-BF56-17AA30549CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{E69DD142-6334-4D26-998F-D5B50DD59F1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{106D6329-D19F-4BA1-83DC-81608CAECDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{106D6329-D19F-4BA1-83DC-81608CAECDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{106D6329-D19F-4BA1-83DC-81608CAECDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{106D6329-D19F-4BA1-83DC-81608CAECDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4067951D-7CBA-4039-BF56-17AA30549CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4067951D-7CBA-4039-BF56-17AA30549CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4067951D-7CBA-4039-BF56-17AA30549CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4067951D-7CBA-4039-BF56-17AA30549CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69DD142-6334-4D26-998F-D5B50DD59F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69DD142-6334-4D26-998F-D5B50DD59F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69DD142-6334-4D26-998F-D5B50DD59F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69DD142-6334-4D26-998F-D5B50DD59F1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {74AFCFEB-FEB8-4E2A-A32F-6A2E96A52665}
+		SolutionGuid = {62364372-8A37-4212-B0B1-EA32870D956A}
 	EndGlobalSection
 EndGlobal

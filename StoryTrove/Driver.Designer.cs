@@ -1,6 +1,6 @@
 ﻿namespace StoryTrove
 {
-    partial class Browser
+    partial class Driver
     {
         /// <summary>
         /// Required designer variable.
@@ -28,11 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Driver
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Browser";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Name = "Driver";
+            this.Text = "StoryTrove";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
+
